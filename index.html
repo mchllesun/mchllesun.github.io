@@ -18,7 +18,7 @@
 
             .container {
             position: absolute;
-            top: -10%;
+            top: -8%;
             right: 0%;
             width: 320px; 
             height: 320px; 
@@ -47,6 +47,16 @@
                     transform: translate(-50%, -50%) rotate(7deg);
                 }
             }
+
+            @media (max-width: 768px) {
+                .container {
+                    position: static; /* Remove absolute positioning */
+                    width: 100%; /* Allow it to take full width */
+                    text-align: center; /* Center the image */
+                    margin-top: 20px; /* Add space between image and text */
+                }
+            }
+
         </style>
     </head>
 
