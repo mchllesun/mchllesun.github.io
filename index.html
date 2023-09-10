@@ -18,17 +18,17 @@
 
             .container {
             position: absolute;
-            top: -15%;
-            right: -3%;
-            width: 350px; 
-            height: 350px; 
+            top: -17%;
+            right: 0%;
+            width: 320px; 
+            height: 320px; 
             }
 
             .moving-image {
                 position: absolute;
                 top: 0;
                 left: 0;
-                animation: moveImage 4s linear infinite;
+                animation: moveImage 3s linear infinite;
             }
 
             .tilting-image {
@@ -41,10 +41,10 @@
 
             @keyframes tiltImage {
                 0%, 100% {
-                    transform: translate(-50%, -50%) rotate(-10deg);
+                    transform: translate(-50%, -50%) rotate(-7deg);
                 }
                 50% {
-                    transform: translate(-50%, -50%) rotate(10deg);
+                    transform: translate(-50%, -50%) rotate(7deg);
                 }
             }
         </style>
@@ -65,7 +65,7 @@
         </p>
 
         <div class="container">
-            <img src="artwork1.png" alt="A cartoon drawing of myself" width="350" height="350" class="tilting-image">
+            <img src="artwork1.png" alt="A cartoon drawing of myself" width="320" height="320" class="tilting-image">
         </div>
 
         <p>
