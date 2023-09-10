@@ -24,19 +24,19 @@
             max-width: 350px; 
             }
 
-            .moving-image {
-                position: absolute;
-                top: 0;
-                left: 0;
-                animation: moveImage 4s linear infinite;
+            .container {
+                position: relative;
+                width: 100%;
+                padding-top: 100%; /* Maintain a 1:1 aspect ratio */
             }
 
             .tilting-image {
                 position: absolute;
-                top: 50%;
-                left: 50%;
-                transform-origin: center center;
-                animation: tiltImage 4s linear infinite;
+                top: 10%; /* Adjust as needed */
+                right: 5%; /* Adjust as needed */
+                width: 30%; /* Adjust as needed */
+                max-width: 350px; /* Limit the maximum width */
+                animation: tiltImage 3s linear infinite;
             }
 
             @keyframes tiltImage {
@@ -50,13 +50,13 @@
 
         /* Media query for smaller screens */
         @media (max-width: 768px) {
-            .container {
+            .tilting-image {
                 top: 5%; /* Adjust for smaller screens */
                 right: 2%; /* Adjust for smaller screens */
                 width: 40%; /* Adjust for smaller screens */
             }
         }
-        
+
         </style>
     </head>
 
