@@ -1,13 +1,9 @@
 # Hello 
 
-This is my website for now. I'm working on it ok 
+This is my website for now (in progress)
 
 ---
 
-I'm just messing around
 
-**there is a pigeon behind me**
-
-Made with 💟 by [Michelle].
 
 ---
